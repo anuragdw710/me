@@ -8,11 +8,12 @@ input.addEventListener("keydown", function (event) {
     }
 });
 const cv = {
-    "edu.txt": "MMMUT B.Tech Nov 2020 - May 2024",
-    "exp.txt": "Current- INTERVIEW KICKSTART  EX-",
-    "project.txt": "AIRLINE BACKEND SYSTEM ,DOCTOR APPOINTMENT BOOKING(Available on my github)",
-    "skill.txt": "PROGRAMMING:C/C++, Javascript, Python",
-    "achievement.txt": "Expert on Codeforces,5 start on CodeChef, 4 Kyu on Atcoder,Guardian on Leetcode,",
+    "EDUCATION.txt": "MMMUT B.Tech Nov 2020 - May 2024",
+    "EXPERIENCE.txt": "Current- INTERVIEW KICKSTART  EX-",
+    "PROJECTS.txt": "AIRLINE BACKEND SYSTEM ,DOCTOR APPOINTMENT BOOKING(Available on my github)",
+    "SKILLS.txt": "PROGRAMMING:C/C++, Javascript, Python",
+    "ACHIEVEMENT.txt": "Expert on Codeforces,5 start on CodeChef, 4 Kyu on Atcoder,Guardian on Leetcode,",
+
 }
 
 function handleEnterKeyPress() {
