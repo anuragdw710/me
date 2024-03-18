@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Take at least full viewport height */
+}
+
+/* Container to center content */
+.container {
+    max-width: 600px; /* Adjust as needed */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#intro{
+    color: blue;
+    padding: 20px;
+}
+/* Styling for the navbar */
+#navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Styling for the OS section */
+#os {
+    padding: 20px;
+}
+
+#heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the input field */
+#myInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Styling for the list */
+#list {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+/* Styling for the list items */
+#list li {
+    margin-bottom: 5px;
+}
+
+/* Styling for the terminal commands */
+#list li p {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    #navbar {
+        display: block;
+    }
+    #navbar a {
+        display: block;
+        margin: 5px auto;
+    }
+    #os {
+        padding: 10px;
+    }
+}
